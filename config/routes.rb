@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   # root route - go to controller 
   # (app > controllers > application_controller.rb)
   # controller#method/action
