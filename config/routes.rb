@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   # rails generate controller pages
   root 'pages#home'
+  get 'about', to: 'pages#about'
 end
